@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body {
+  height: 47em;
+  width: 48em;
+  margin: 4em;
+  margin-left: 21.5em;
+  border: 5px solid #165100;
+  padding: 0;
+  text-align: center;
+  background-color: #F0FEEB;
+
+}
+
+main {
+  height: 95.5%;
+  width: 100%;
+  padding: 1.5em;
+  background-color: #BFFEA7;
+}
+
+h1 {
+
+  text-align: left;
+  font-size: 1.7em;
+  font-style: oblique;
+  color: #134601;
+}
+
+span {
+
+  width: 18%;
+  height: 11em;
+  display: inline-block;
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 0.3em;
+  margin-left: 0.5em;
+  border: 2px solid #165100;
+  background-color: white;
+
+}
+
+button {
+
+  font-size: 1.5em;
+  padding: 0.3em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  margin: 0.1em;
+  background-color: #F0FEEB;
+  border-radius: 3px;
+
+}
+
+button:hover {
+
+  background-color: #165100;
+  color: white;
+
+}
+
+button:active {
+
+  background-color: #134601;
+
+}
+
+#title {
+
+  text-align: center;
+  border-bottom: 5px solid #134601;
+  color: black;
+
+}
+
+.player, .dealer{
+  padding: 0.4em;
+  /*float:left;*/
+
+}
